@@ -1,7 +1,7 @@
 # Multiple authentication endpoints in Spring security
 
-Example how to to authenticate user against two independent authentication providers,
- but you only care if one if the providers authenticate the user.
+Example how to to authenticate user against two independent authentication providers
+async AsyncRestTemplate, but you only care if one if the providers authenticate the user.
 
 ## Endpoints:
 
@@ -9,7 +9,7 @@ Example how to to authenticate user against two independent authentication provi
  first authorization provider
  
 ### GET /auth-2/{username}
- second authorization provider two
+ second authorization provider
  
 ### GET /content
  content that is accessible if at least one of the providers authenticate user 
