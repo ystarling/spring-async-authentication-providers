@@ -6,10 +6,10 @@ async AsyncRestTemplate, but you only care if one if the providers authenticate 
 ## Endpoints:
 
 ### GET /auth-1/{username}
- first authorization provider
+ first authentication provider
  
 ### GET /auth-2/{username}
- second authorization provider
+ second authentication provider
  
 ### GET /content
  content that is accessible if at least one of the providers authenticate user 
